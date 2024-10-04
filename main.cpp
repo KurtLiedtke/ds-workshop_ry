@@ -9,7 +9,7 @@ int main(int argc, char* argv[]) {
     }
 
     for (std::list<std::string>::iterator itr = list.begin(); itr != list.end(); itr++) {
-        std::cout << *itr << '\n';
+        std::cout << *itr << '\n'<<"what is upp";
     }
 
     return 0;
